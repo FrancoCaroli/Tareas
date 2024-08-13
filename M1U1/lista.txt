@@ -1,3 +1,6 @@
 alfajor
 leche
 pan
+frutilla
+banana
+palta
