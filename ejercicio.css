@@ -1,0 +1,52 @@
+h1 {
+    color: greenyellow;
+    background-color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: blueviolet;
+}
+
+h3 {
+    color: crimson;
+}
+
+h4 {
+    color: rgb(172, 18, 138);
+}
+
+.destacados {
+    color: red;
+}
+
+#caja {
+    background-color: cadetblue;
+    width: 250px;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#caja h3 {
+    text-align: center;
+}
+
+#caja2 {
+    background-color: burlywood;
+    width: 250px;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#caja2 h3 {
+    text-align: center;
+    color: blue;
+}
+
+.contenedor {
+    display: flex;
+}
