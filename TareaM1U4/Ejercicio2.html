@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const numeros = [3, 1, 10, 55, 8, 23];
+        console.log(numeros);
+        console.log(numeros.length);
+        let mayor = numeros[0];
+        for (let i = 1; i < numeros.length; i++) {
+
+            if (numeros[i] > mayor) {
+                mayor = numeros[i];
+            }
+        }
+        console.log('El número mayor es:', mayor);
+
+    </script>
+</body>
+
+</html>
